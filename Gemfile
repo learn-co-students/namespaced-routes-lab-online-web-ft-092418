@@ -14,7 +14,8 @@ group :development, :test do
   gem 'shoulda'
 end
 
+gem 'pry'
+
 group :development do
   gem 'web-console', '~> 2.0'
 end
-
