@@ -1,0 +1,7 @@
+<%= form_for @preference do |f| %>
+    <%= f.check_box :allow_create_songs %>
+    <%= f.check_box :allow_create_artist %>
+    <%= f.text_field :song_sort_order %>
+    <%= f.text_field :artist_sort_order %>
+    <%= f.submit %>
+<% end %>
